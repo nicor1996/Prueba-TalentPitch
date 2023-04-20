@@ -1,4 +1,4 @@
-![Logo de TalentPitch](https://www.talentpitch.co/themes/talentpitch/img/logo.png)
+![Logo de TalentPitch]([https://www.talentpitch.co/themes/talentpitch/img/logo.png](https://media.talentpitch.co/website/logos/website-TalentPitch-logo.svg))
 # TalentPitch Challenge
 
 Welcome to the TalentPitch Challenge! Good luck, and feel free to reach out to me at [email protected] if you have any questions.
