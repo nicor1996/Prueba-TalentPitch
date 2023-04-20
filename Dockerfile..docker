@@ -1,0 +1,19 @@
+# Imagen base
+FROM python:3.11.3
+
+# Copiar archivos locales a la imagen
+COPY users.csv /app
+COPY users_raw.csv /app
+COPY requirements.txt /app
+
+# Instalar las librerías necesarias
+RUN pip install -r requirements.txt
+
+# Descargar modelo de spacy en español
+RUN python -m spacy download es_core_news_sm
+
+# Copiar el código fuente a la imagen
+COPY . /app
+
+# Ejecutar el script principal
+CMD ["python", " Prueba-TalentPitch.py"]
